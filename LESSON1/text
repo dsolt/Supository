@@ -1,0 +1,31 @@
+Ok, let's get started.  Goals:
+
+Learn to compile and run a simple program written for you.  
+Understand the parts of the program.  
+Be able to make a simple modification.
+
+The program is called add_numbers.c
+
+Look at the file.  It is commented with human readable documentation in the
+file.  After you look at it, try compiling:
+
+$  gcc add_number.c -o add_numbers
+     
+add_numbers.c is the name of your source code 
+add_numbers is the name of your resulting program.   
+
+You notice you can't run add_number.c:
+
+$ ./add_number.c
+./add_number.c: permission denied
+
+But you can run add_numbers because the compiler has marked the file as 
+"ok to execute":
+
+$ ./add_number 1 2 3
+Program (./add_number) found the sum of the command line to be 6
+
+Now can you guess how to modify the program to multiple the numbers together
+instead of adding them?
+
+ 
